@@ -16,6 +16,7 @@ class employee:
         self.lName = generate_random_name()
         self.email = f"{self.fName.lower()}.{self.lName.lower()}@example.com"
         self.nrSub = 0
+        self.toolTip = "Employee"
     
 # List of syllables to form names
 syllables = ['ba', 'be', 'bi', 'bo', 'bu',
